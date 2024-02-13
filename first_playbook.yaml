@@ -8,6 +8,6 @@
     - name: "just execute a ls -lrt command"
       shell: "ls -lrt"
       register: "output"
-    delegate_to: 10.114.116.141  
+      delegate_to: 10.114.116.141  
 # The Output of the above task will be displayed on the Screen
     - debug: var=output.stdout_lines
