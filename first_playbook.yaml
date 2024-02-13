@@ -1,7 +1,7 @@
 ---
   - name: "Playing with Ansible."
 # Ansible Playbook will run on the Localhost where AWX is installed
-    hosts: 10.114.116.141
+    hosts: ansible_host
     connection: local
     tasks:
 # Below task will execute the list of directories and files present
